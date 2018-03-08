@@ -10,7 +10,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 树形结构生成JSON字符串
+ */
 public class MyTestClass {
+
     public static void main(String[] args) {
         List<TreeEntityTest> list = new ArrayList<TreeEntityTest>();
         list.add(new TreeEntityTest(1,0,"目录1"));
